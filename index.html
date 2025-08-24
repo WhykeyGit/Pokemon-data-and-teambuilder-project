@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="welcome-title">🔍 Pokédex Search</h1>
+            <p class="welcome-text">Discover your favorite Pokémon! Enter a name below to see their stats, types, and abilities.</p>
+        </header>
+        
+        <div class="search-container">
+            <input type="text" id="pokemonName" placeholder="Enter Pokémon name (e.g., pikachu, charizard)">
+            <button onclick="fetchData()">🔍 Search Pokémon</button>
+        </div>
+
+        <div id="pokemonDisplay" style="display: none;">
+            <img src="" alt="Pokemon Sprite" id="pokemonSprite" style="width: 200px; height: 200px; image-rendering: pixelated;">
+            <div id="pokemonInfo">
+                <h3 id="pokemonNameDisplay"></h3>
+                <div id="pokemonTypes" class="info-section"></div>
+                <div id="pokemonAbilities" class="info-section"></div>
+                <div id="pokemonStats" class="info-section"></div>
+                <div id="pokemonMoves" class="info-section"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="DataFetchPractice/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "pokedex-web-app",
+  "version": "1.0.0",
+  "description": "A beautiful, interactive Pokédex web application with Bulbapedia-style UI",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000 -o"
+  },
+  "keywords": [
+    "pokemon",
+    "pokedex",
+    "web-app",
+    "javascript",
+    "pokeapi",
+    "bulbapedia"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/pokedex-web-app.git"
+  },
+  "homepage": "https://yourusername.github.io/pokedex-web-app"
+}
