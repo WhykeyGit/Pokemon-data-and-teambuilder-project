@@ -38,7 +38,7 @@ Will add a Teambuilder page for VGC
 
 2. **Open the project**:
    - Simply open `index.html` in your web browser
-   - Or use a local server (recommended):
+   - Or use a local server (E.G. Live Server in VSCode): 
      ```bash
      # Using Python 3
      python -m http.server 8000
@@ -123,13 +123,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - [PokéAPI](https://pokeapi.co/) for the comprehensive Pokémon data
 - [Bulbapedia](https://bulbapedia.bulbagarden.net/) for design inspiration
-- The Pokémon Company for creating this amazing universe
-
-## 📞 Contact
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- The Pokémon Company for creating this universe
 
 ---
 
 *Gotta catch 'em all!* 🎯✨
+
